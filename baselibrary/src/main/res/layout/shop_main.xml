@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="150dp"
+              android:orientation="vertical"
+              android:background="@color/white">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/bg_Gray_light"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="@dimen/jb"
+            android:layout_height="90dp">
+
+            <CheckBox
+                android:id="@+id/cbgoods"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/jb"
+                android:background="@drawable/btn_check"
+                android:button="@null"
+                android:focusable="false"
+                android:gravity="center_vertical"/>
+
+            <ImageView
+                android:id="@+id/ivgoods"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="@dimen/jb"
+                android:layout_marginLeft="@dimen/jc"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvgoodsname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jb"
+                android:layout_marginTop="@dimen/jb"
+                android:layout_marginRight="@dimen/jb"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:textColor="@color/home_titel"
+                android:textSize="@dimen/zb"/>
+
+            <TextView
+                android:id="@+id/tvgoodsconent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jb"
+                android:layout_marginTop="@dimen/jc"
+                android:singleLine="true"
+                android:textSize="@dimen/zb"
+                android:textColor="@color/sdarkgray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tvprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/jb"
+                    android:layout_marginTop="@dimen/ja"
+                    android:text="11"
+                    android:singleLine="true"
+                    android:textSize="@dimen/zb"
+                    android:textColor="@color/sdarkgray"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/jb"
+                    android:layout_marginBottom="2dp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="30dp"
+                        android:layout_height="27dp">
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="27dp"
+                            android:background="@color/bg_Gray_light"/>
+                        <LinearLayout
+                            android:layout_width="29dp"
+                            android:layout_height="27dp"
+                            android:orientation="vertical">
+                            <View
+                                android:layout_width="29dp"
+                                android:layout_height="1dp"
+                                android:background="@color/bg_Gray_light"/>
+                            <TextView
+                                android:id="@+id/btn_reduce"
+                                android:layout_width="29dp"
+                                android:layout_height="25dp"
+                                android:gravity="center"
+                                android:text="—"
+                                android:textColor="#666666"
+                                android:textSize="14dp"/>
+                            <View
+                                android:layout_width="29dp"
+                                android:layout_height="1dp"
+                                android:background="@color/bg_Gray_light"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:descendantFocusability="beforeDescendants"
+                        android:layout_height="27dp">
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="27dp"
+                            android:background="@color/bg_Gray_light"/>
+
+                        <LinearLayout
+                            android:layout_width="49dp"
+                            android:layout_height="27dp"
+
+                            android:orientation="vertical">
+
+                            <View
+                                android:layout_width="49dp"
+                                android:layout_height="1dp"
+                                android:background="@color/bg_Gray_light"/>
+
+                            <TextView
+                                android:id="@+id/tv_goods_num"
+                                android:layout_width="49dp"
+                                android:layout_height="25dp"
+                                android:gravity="center"
+                                android:text="1"
+                                android:focusable="true"
+                                android:singleLine="true"
+                                android:digits="1234567890."
+                                android:inputType="number"
+                                android:background="@null"
+                                android:textColor="@color/home_titel"
+                                android:textSize="@dimen/zc"/>
+
+                            <View
+                                android:layout_width="49dp"
+                                android:layout_height="1dp"
+                                android:background="@color/bg_Gray_light"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="30dp"
+                        android:layout_height="27dp">
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="27dp"
+                            android:background="@color/bg_Gray_light"/>
+
+                        <LinearLayout
+                            android:layout_width="28dp"
+                            android:layout_height="27dp"
+                            android:orientation="vertical">
+
+                            <View
+                                android:layout_width="28dp"
+                                android:layout_height="1dp"
+                                android:background="@color/bg_Gray_light"/>
+
+                            <TextView
+                                android:id="@+id/btn_add"
+                                android:layout_width="28dp"
+                                android:layout_height="25dp"
+                                android:gravity="center"
+                                android:text="+"
+                                android:textColor="#666666"
+                                android:textSize="14dp"/>
+
+                            <View
+                                android:layout_width="28dp"
+                                android:layout_height="1dp"
+                                android:background="@color/bg_Gray_light"/>
+                        </LinearLayout>
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="27dp"
+                            android:background="@color/bg_Gray_light"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+<include layout="@layout/item"/>
+</LinearLayout>

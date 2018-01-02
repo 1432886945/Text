@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--标题栏-->
+        <item name="colorPrimary">@color/color_light_gray</item>
+        <!--状态栏-->
+        <item name="colorPrimaryDark">@color/color_light_gray</item>
+        <!--系统中，子空间，复选框，单选按钮，选中时的颜色-->
+        <item name="colorAccent">@color/home_titel</item>
+        <!--窗体的背景色-->
+        <item name="android:windowBackground">@color/bg_light</item>
+        <!--<item name="android:textColorSecondary">@color/MFFFFFF</item>-->
+        <!--窗体无标题栏-->
+        <item name="windowNoTitle">true</item>
+        <!--无actionbar-->
+        <item name="windowActionBar">false</item>
+        <!--取消状态栏,也就是全屏显示-->
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <!--toolbar主题-->
+    <style name="ToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorBackground">@color/order</item>
+    </style>
+</resources>

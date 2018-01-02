@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baselibrary.ui.SquareFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="@dimen/jb"
+    android:layout_height="wrap_content">
+    <com.baselibrary.view.SquareImageView
+        android:id="@+id/image_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_launcher" />
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/appitem_del_btn_normal"
+        android:layout_gravity="right"/>
+
+</com.baselibrary.ui.SquareFrameLayout>

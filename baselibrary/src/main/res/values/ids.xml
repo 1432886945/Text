@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="vv_error_refresh" />
+    <item type="id" name="vv_loading_progress" />
+    <item name="fixedTabIndicator" type="id" />
+    <item name="mFilterContentView" type="id" />
+</resources>

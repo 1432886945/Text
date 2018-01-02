@@ -1,0 +1,77 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_bar_height" >44dp</dimen>
+    <dimen name="divider">0.5dp</dimen>
+
+    <!-- app字体大小-->
+    <dimen name="za">11sp</dimen>
+    <dimen name="zb">12sp</dimen>
+    <dimen name="zc">14sp</dimen>
+    <dimen name="zd">16sp</dimen>
+    <dimen name="ze">18sp</dimen>
+
+    <!-- app图标大小-->
+    <dimen name="ta">7dp</dimen>
+    <dimen name="tb">8dp</dimen>
+    <dimen name="tc">9dp</dimen>
+    <dimen name="td">10dp</dimen>
+    <dimen name="te">11dp</dimen>
+    <dimen name="tf">12dp</dimen>
+    <dimen name="tg">13dp</dimen>
+    <dimen name="th">14dp</dimen>
+    <dimen name="tl">15dp</dimen>
+    <dimen name="tk">16dp</dimen>
+    <dimen name="ti">17dp</dimen>
+    <dimen name="tm">18dp</dimen>
+    <dimen name="tn">20dp</dimen>
+    <dimen name="to">21dp</dimen>
+    <dimen name="tp">22dp</dimen>
+    <dimen name="tq">23dp</dimen>
+    <dimen name="tr">24dp</dimen>
+    <dimen name="ts">25dp</dimen>
+    <dimen name="tt">26dp</dimen>
+    <dimen name="tu">27dp</dimen>
+    <dimen name="tv">28dp</dimen>
+    <dimen name="tw">29dp</dimen>
+    <dimen name="tx">30dp</dimen>
+    <dimen name="ty">31dp</dimen>
+    <dimen name="tz">32dp</dimen>
+    <dimen name="t1">33dp</dimen>
+    <dimen name="t2">34dp</dimen>
+    <dimen name="t3">35dp</dimen>
+    <dimen name="t4">36dp</dimen>
+    <dimen name="t5">37dp</dimen>
+    <dimen name="t6">38dp</dimen>
+
+    <!-- app间隔-->
+    <dimen name="ja">4dp</dimen>
+    <dimen name="jb">10dp</dimen>
+    <dimen name="jc">5dp</dimen>
+    <dimen name="jd">13dp</dimen>
+    <dimen name="je">15dp</dimen>
+    <dimen name="jf">18dp</dimen>
+    <dimen name="jj">20dp</dimen>
+    <dimen name="jh">21dp</dimen>
+    <dimen name="ji">22dp</dimen>
+    <dimen name="jg">23dp</dimen>
+    <dimen name="jk">24dp</dimen>
+    <dimen name="jl">25dp</dimen>
+    <dimen name="jm">26dp</dimen>
+    <dimen name="jn">27dp</dimen>
+    <dimen name="jo">28dp</dimen>
+    <dimen name="jp">29dp</dimen>
+    <dimen name="jq">30dp</dimen>
+    <dimen name="jr">31dp</dimen>
+    <dimen name="js">32dp</dimen>
+    <dimen name="jt">33dp</dimen>
+    <dimen name="ju">34dp</dimen>
+    <dimen name="jv">35dp</dimen>
+    <dimen name="jw">36dp</dimen>
+    <dimen name="jx">37dp</dimen>
+    <dimen name="jy">38dp</dimen>
+    <dimen name="jz">39dp</dimen>
+    <dimen name="j1">40dp</dimen>
+
+</resources>

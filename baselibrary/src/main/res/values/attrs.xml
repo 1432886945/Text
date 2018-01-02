@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="dotView">
+        <attr name="dotSize" format="dimension" />
+        <attr name="dotDistance" format="dimension" />
+        <attr name="bottomColor" format="color" />
+        <attr name="dotIndicatorFoucus" format="color" />
+        <attr name="dotIndicatorNormal" format="color" />
+        <attr name="dotDesColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <!--定义宽高比-->
+        <attr name="withProportion" format="float"/>
+        <attr name="heightProportion" format="float"/>
+        <attr name="dotGravity" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="left" value="-1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SuperRefreshLayout">
+        <attr name="overlay" format="boolean"/>
+        <!-- 下拉刷新的样式,text是纯文字样式 -->
+        <attr name="show_type" format="enum">
+            <enum name="defstr" value="0"/>
+            <enum name="material" value="1"/>
+            <enum name="goo" value="2"/>
+        </attr>
+        <!-- 一直下拉模式 -->
+        <attr name="pull_endless" format="boolean"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="GooView">
+        <attr name="fill_color" format="color"/>
+        <attr name="progress_color" format="color"/>
+    </declare-styleable>
+    // 三级联动
+    <declare-styleable name="WheelView">
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="selectedTextSize" format="dimension" />
+        <attr name="unitHight" format="dimension" />
+        <attr name="itemNumber" format="integer" />
+        <attr name="lineColor" format="color" />
+        <attr name="lineHeight" format="dimension" />
+        <attr name="maskHight" format="dimension" />
+        <attr name="noEmpty" format="boolean" />
+        <attr name="isEnable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="customButton">
+        <attr name="normalSolid" format="color" />
+        <attr name="pressedSolid" format="color" />
+        <attr name="stroke" format="color" />
+        <attr name="normalStroke" format="color" />
+        <attr name="pressedStroke" format="color" />
+        <attr name="roundButtonRadius" format="dimension" />
+        <attr name="roundButtonLeftTopRadius" format="dimension" />
+        <attr name="roundButtonLeftBottomRadius" format="dimension" />
+        <attr name="roundButtonRightTopRadius" format="dimension" />
+        <attr name="roundButtonRightBottomRadius" format="dimension" />
+        <attr name="normalDrawable" format="reference" />
+        <attr name="pressedDrawable" format="reference" />
+        <attr name="isSelected" format="boolean" />
+        <attr name="BnormalTextColor" format="color" />
+        <attr name="BselectedTextColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="customTextView">
+        <attr name="textSolidColor" format="color" />
+        <attr name="textStrokeColor" format="color" />
+        <attr name="textRadius" format="dimension" />
+        <attr name="textLeftTopRadius" format="dimension" />
+        <attr name="textLeftBottomRadius" format="dimension" />
+        <attr name="textRightTopRadius" format="dimension" />
+        <attr name="textRightBottomRadius" format="dimension" />
+        <attr name="textStrokeWidth" format="dimension" />
+        <attr name="textDrawable" format="reference" />
+        <attr name="textNormalTextColor" format="color" />
+        <attr name="textSelectedTextColor" format="color" />
+    </declare-styleable>
+
+
+</resources>

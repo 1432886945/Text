@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="5dip" />
+            <gradient
+                android:startColor="@color/order"
+                android:centerColor="@color/order"
+                android:endColor="@color/order"/>
+        </shape>
+    </item>
+</layer-list>

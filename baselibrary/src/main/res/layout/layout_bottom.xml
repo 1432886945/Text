@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:background="#f9f9f9"
+              android:orientation="horizontal">
+
+    <include
+        android:id="@+id/shoppingLayout"
+        layout="@layout/layout_tab_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <include
+        android:id="@+id/moduleLayout"
+        layout="@layout/layout_tab_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <include
+        android:id="@+id/order_cartLayout"
+        layout="@layout/layout_tab_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>

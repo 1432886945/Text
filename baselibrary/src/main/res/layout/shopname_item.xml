@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="40dp"
+              android:gravity="center"
+              android:minHeight="40dp"
+              android:background="@color/white"
+              android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/jb"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+        <CheckBox
+            android:id="@+id/cbshop"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/btn_check"
+            android:button="@null"
+            android:focusable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/jc"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/shop"/>
+        <TextView
+            android:id="@+id/shopname"
+            android:layout_marginLeft="@dimen/jc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商家"
+            android:layout_gravity="center"
+            android:textColor="@color/home_titel"
+            android:textSize="@dimen/zb" />
+    </LinearLayout>
+</LinearLayout>

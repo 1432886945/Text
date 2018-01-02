@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="s2">#ff666666</color>
+    <color name="choiceColor">#FF40AF21</color>
+    <color name="nomalColor">#FF9C21AF</color>
+    <color name="bottomBgColor">#00000000</color>
+    <color name="media_choose_op_btn_text">#FF4081</color>
+
+    <color name="colorWhite">#fffffc</color>
+
+    <color name="bg">#20000000</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="pressed">#AAAAAA</color>
+    <color name="normal">#fff</color>
+    <color name="color_bg">#b0000000</color>
+    <color name="home_titel">#333333</color>
+    <color name="MFFFFFF">#FFF</color>
+    <color name="colorLighterGray">#cccccc</color>
+    <!-- 浅灰色 -->
+    <color name="bg_Gray_light">#ebebeb</color>
+    <color name="bg_light">#f5f5f5</color>
+    <color name="popup_bg">#8f000000</color>
+
+    <color name="darkgray">#666666</color>
+    <color name="sdarkgray">#999999</color>
+    <color name="red">#ff0000</color>
+
+
+    <color name="super_light_grey">#9f9f9f</color>
+    <color name="shadow_bg">#66000000</color>
+    <!--全透明-->
+    <color name="color_transparent">#00000000</color>
+    <!--白色-->
+    <color name="color_light_gray">#DDDDDD</color>
+
+    <!--首页按钮颜色-->
+    <color name="select_button">#4a4c5b</color>
+    <color name="select_button2">#f7f7fb</color>
+
+    <!--侧边栏列表文字-->
+    <color name="select_text">#494c5b</color>
+
+    <color name="order">#ff9c00</color>
+    <color name="green">#55c96f</color>
+
+    <color name="blue">#0fa7f6</color>
+
+    <!-- button背景色-->
+    <color name="button_card">#cbcbcb</color>
+    <color name="transparent">#0000</color>
+
+    <color name="lan">#45cbca</color>
+    <!--页面背景的颜色-->
+    <color name="colorPageBg">#f2f4f5</color>
+    <color name="colorTheme">#ffce3d3a</color>
+    <color name="black_p50">#7f000000</color>
+    <color name="gray_e7e7e7">#e7e7e7</color>
+    <color name="b_c_fafafa">#fafafa</color>
+    <color name="blue_4285f4">#4285f4</color>
+    <color name="black_5a626d">#5a626d</color>
+</resources>
